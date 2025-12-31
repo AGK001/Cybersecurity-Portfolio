@@ -7,7 +7,7 @@ This directory contains a collection of hands-on activities and technical projec
 ## 📁 Portfolio Activities & Projects
 
 ### 🛡️ Governance, Risk, and Compliance (GRC)
-* **[Analyze a Vulnerable System for a Small Business](./Analyze-Vulnerable-System)**: Conducted a vulnerability assessment using NIST SP 800-30 Rev. 1 to identify risks for a publicly accessible database.
+* **[Analyze a Vulnerable System for a Small Business](./E-commerce-Vulnerability-Assessment)**: Conducted a vulnerability assessment using NIST SP 800-30 Rev. 1 to identify risks for a publicly accessible database.
 * **[Conduct a Security Audit](./Security-Audit)**: Evaluated organizational security controls, identified gaps, and recommended compliance strategies.
 * **[Use the NIST CSF to Respond to a Security Incident](./NIST-Incident-Response)**: Applied the NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, Recover) to manage a simulated security breach.
 
