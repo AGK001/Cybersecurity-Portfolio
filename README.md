@@ -4,7 +4,7 @@ This repository serves as a comprehensive collection of my hands-on experience i
 
 ## 📁 Repository Contents
 
-### 1. [Google Cybersecurity Professional Certificate](./Google-Cybersecurity-Labs)
+### 1. [Google Cybersecurity Professional Certificate](./Google-Cybersecurity-Portfolio)
 Documented labs covering the 8-course curriculum, including:
 * **Linux:** Managing permissions and users via CLI.
 * **SQL:** Querying databases for security audits.
