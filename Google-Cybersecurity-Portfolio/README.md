@@ -13,7 +13,7 @@ This directory contains a collection of hands-on activities and technical projec
 
 ### 🔍 Technical Security Operations
 * **[Apply Filters to SQL Queries](./SQL-Security-Filters)**: Used SQL to query databases, filter for specific security events, and audit user access logs.
-* **[Use Linux Commands to Manage File Permissions](./Linux-Permissions)**: Leveraged the Linux CLI (`chmod`, `chown`) to implement the Principle of Least Privilege on system files.
+* **[Use Linux Commands to Manage File Permissions](./Linux-File-Permissions)**: Leveraged the Linux CLI (`chmod`, `chown`) to implement the Principle of Least Privilege on system files.
 * **[Incident Handler's Journal](./Incident-Journal)**: A detailed log of security incidents, analysis steps, and remediation actions taken during simulated SOC tasks.
 
 ### 🐍 Security Automation
