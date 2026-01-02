@@ -57,3 +57,27 @@ for element in remove_list:
 ip_addresses = "\n".join(ip_addresses)
 with open(import_file, "w") as file:
     file.write(ip_addresses)
+ ```
+---
+
+## 🛡️ Strategic Value
+Automating access control lists (ACLs) provides several security benefits:
+
+* **Consistency:** The script applies the same logic every time, eliminating the "missed line" error common in manual audits.
+* **Speed:** Large lists (thousands of IPs) can be updated in milliseconds.
+* **Compliance:** Provides a repeatable process that can be logged for HIPAA or GDPR audits.
+
+---
+
+## 💡 Key Skills Demonstrated
+* **Security Scripting:** Developed functional Python code to solve a real-world IAM problem.
+* **Data Parsing:** Proficiency in manipulating string and list data structures.
+* **Safe File I/O:** Expertise in using context managers (`with`) for secure file operations.
+* **Defensive Programming:** Using membership tests (`if element in ip_addresses`) to ensure script stability.
+
+---
+
+## 📂 Project Assets
+For full transparency, the technical report and the walkthrough of the algorithm can be viewed below:
+
+* 📄 [Python Algorithm for File Updates (Google Doc)](https://docs.google.com/document/d/1p-7hWhkUHtbGnOU7lVgS2GNdpYh5lphW27g8XTrxumk/edit?usp=sharing)
