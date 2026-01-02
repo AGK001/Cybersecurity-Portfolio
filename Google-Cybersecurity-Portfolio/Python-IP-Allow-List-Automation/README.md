@@ -22,16 +22,22 @@ Effective security automation requires a reliable and repeatable logic. I design
 ### 1. Safe File Handling
 I utilized the `with open(import_file, "r") as file:` statement. This is a critical security best practice because it ensures the file is automatically closed after the script finishes, preventing memory leaks or accidental data corruption.
 
+![Opening the File](Step1_Open_File.PNG)
+
 ### 2. String to List Conversion
 The data in `allow_list.txt` is read as a single string. To facilitate the removal of specific IPs, I used the `.split()` method. This converted the string into a list of individual IP addresses, making them accessible for iteration.
+
+![Converting String to List](Step3_Convert_to_List.PNG)
 
 ### 3. Iterative Removal Loop
 I implemented a `for` loop to check every IP in a `remove_list` against the `allow_list`. By using a conditional `if` statement, the script only attempts to call `.remove()` if the IP is present, preventing the script from crashing on errors.
 
+![Converting String to List](Step5.2_Remove_IP_Addresses.PNG)
+
 ### 4. Finalizing the Update
 To save the changes, I used the `"\n".join()` method to convert the list back into a newline-separated string. I then used `open(import_file, "w")` to overwrite the old file with the updated, secure version.
 
-
+![Converting String to List](Step6.2_Update_File.PNG)
 
 ---
 
