@@ -14,7 +14,7 @@ Documented labs covering the 8-course curriculum, including:
 ### 2. [Network Security & Tools](./Network-Security-Labs)
 * **Traffic Analysis:** Using Wireshark to identify suspicious patterns.
 * **Network Scanning:** Port scanning and vulnerability assessment using Nmap.
-* **Firewalls:** Configuration of basic ACLs and firewall rules. 
+* **Firewalls:** Configuration of basic ACLs and firewall rules.
 
 ## 🛠️ Tools Used
 `Wireshark` `Nmap` `Tcpdump` `Splunk` `Chronicle` `SQL` `Python` `Linux (Ubuntu/Kali)`
